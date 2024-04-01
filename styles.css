@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .img-martin {
     margin: auto;
-    width: 26%;
+    width: 38%;
     border-radius: 53% 47% 33% 67% / 61% 66% 34% 39%;
     animation: corner 3s linear infinite;
 }
@@ -303,7 +303,7 @@ ul {
 
 @keyframes corner {
     0%, to {
-        border-radius: 53% 47% 33% 67% / 61% 66% 34% 39%;
+        border-radius: 63% 37% 62% 38% / 27% 65% 35% 73%;
     }
     33% {
         border-radius: 41% 59% 40% 60% / 46% 66% 34% 54%;

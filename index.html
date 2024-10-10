@@ -1,496 +1,176 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="styles.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="icon" type="image/x-icon" href="./assets/profile.ico" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Miriam+Libre&display=swap"
-      rel="stylesheet"
+    <title>Martin THIBAUT</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
     />
-    <script src="main.js"></script>
-    <script>
-      function onClickGitHub() {
-        window.open("https://github.com/maaart1/", "_blank");
-      }
-
-      function onClickGitLab() {
-        window.open("https://gitlab.com/maaart1", "_blank");
-      }
-
-      function onClickLinkedin() {
-        window.open(
-          "https://www.linkedin.com/in/martin-thibaut-00b309198/",
-          "_blank"
-        );
-      }
-
-      function onClickTwitter() {
-        window.open(
-          "https://mobile.twitter.com/martinthib_pro?t=XQQvc1oNqW84Cg7EbpVhrA&s=09",
-          "_blank"
-        );
-      }
-
-      function onClickOutlook() {
-        window.open("mailto: martin.thibaut.pro@outlook.com");
-      }
-    </script>
-    <title>Martin Thibaut</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+    <link rel="icon" type="image/x-icon" href="images/profile.ico" />
   </head>
-  <body>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-    <section id="header">
-      <div class="color-bg"></div>
-      <div class="block">
-        <img class="img-martin" src="./assets/martin.png" alt="Picture of me" />
-      </div>
-      <div class="typer">
-        <h1>
-          <a
-            class="typewriter"
-            data-period="1000"
-            datatype='["Hi, I&#39;m Martin Thibaut.", "Data Engineer apprentice.", "Toyota Motor Manufacturing France.", "Computer Science Engineer.", "INSA Hauts-De-France."]'
-          >
-            <span class="wrap"></span>
+  <body class="is-preload">
+    <div id="wrapper">
+      <nav id="nav">
+        <a href="#" class="icon solid fa-user"><span>Me</span></a>
+        <a href="#school" class="icon solid fa-user-graduate"
+          ><span>Education</span></a
+        >
+        <a href="#work" class="icon solid fa-briefcase"><span>Work</span></a>
+        <a href="#skills" class="icon solid fa-list"><span>Skills</span></a>
+        <a
+          href="https://www.linkedin.com/in/martin-thibaut/"
+          target="_blank"
+          class="icon brands fa-linkedin"
+          ><span>Linkedin</span></a
+        >
+        <a
+          href="https://github.com/martin-th"
+          target="_blank"
+          class="icon brands fa-github"
+          ><span>GitHub</span></a
+        >
+      </nav>
+
+      <div id="main">
+        <!-- Me -->
+        <article id="home" class="panel intro">
+          <header>
+            <h1>Martin THIBAUT</h1>
+            <p>Junior Data Engineer 🧑‍💻</p>
+          </header>
+          <a href="#school" class="pic">
+            <img src="images/me.png" alt="" />
           </a>
-        </h1>
-      </div>
-      <div class="mouse-icon">
-        <div class="wheel"></div>
-      </div>
-    </section>
+        </article>
 
-    <section
-      id="profile"
-      data-aos="fade-right"
-      data-aos-duration="1000"
-      data-aos-delay="100"
-    >
-      <div class="title-section">
-        <h2 class="title">Profile</h2>
-      </div>
-      <p class="profile">
-        Dynamic and determined, I'm passionate about computer sciences. I'm
-        currently in my fifth year of engineer in computer sciences at INSA
-        Hauts-De-France.
-        <br />
-        I'm a data analyst apprentice at the Toyota Motor Manufacturing France.
-        <br />
-        <br />
-        I speak French (Native) and English (Read, written, spoken).🇫🇷 🇬🇧
-        <br />
-        I practice a lot of sport: gymnastic, bycicle, running. 🤸🏼‍ 🚴🏼‍ 🏃🏼‍
-        <br />
-        I like to play chess very much. ♟
-        <br />
-        <br />
-        I practiced guitar during 5 years. I was part of a scout group during 8
-        years at the Templeuve group. 🎸 🏕
-        <br />
-        <br />
-        You can download my resume,
-        <a class="link" href="./assets/CV_anglais_martin_thibaut.pdf" target="_blank"
-          >click here</a
-        >.
-      </p>
-    </section>
+        <!-- School -->
+        <article id="school" class="panel">
+          <header>
+            <h2>Education</h2>
+          </header>
+          <section>
+            <h3>
+              Computer Science Engineer's Degree, INSA Hauts-De-France,
+              Valenciennes (FR)
+            </h3>
+            <p>2021 - 2024</p>
 
-    <section
-      id="school"
-      data-aos="fade-left"
-      data-aos-duration="1000"
-      data-aos-delay="100"
-    >
-      <div class="title-section">
-        <h2 class="title">School Career</h2>
-      </div>
-      <div class="school">
-        <div
-          class="bulle-school"
-          data-aos="zoom-in-up"
-          data-aos-delay="150"
-          data-aos-duration="800"
-        >
-          <h3>Computer engineering student</h3>
-          <a style="font-style: italic; color: #757575"
-            >At INSA Hauts-De-France Valenciennes</a
-          >
-          <a>2021 - 2024</a>
-          <img class="logo" src="./assets/insa.webp" alt="Logo INSA" />
-          <div class="bulle-school hidden">
-            <ul style="padding: 0">
+            <h3>Computer Science Degree, University of Lille, Lille (FR)</h3>
+            <p>2019 - 2021</p>
+
+            <h3>Technological Baccalaureate, Ozanam, Lille (FR)</h3>
+            <p>2019</p>
+          </section>
+        </article>
+
+        <!-- Work -->
+        <article id="work" class="panel">
+          <header>
+            <h2>Work Experiences</h2>
+          </header>
+          <section>
+            <h3>
+              Data Engineer Apprentice, Toyota Motor Manufacturing France,
+              Onnaing (FR)
+            </h3>
+            <p>2023 - 2024</p>
+            <ul>
+              <li>Analysing business data requirements (IoT, process data).</li>
               <li>
-                Key modules: Computer programming (Java, C, SQL, HTML/CSS,
-                JavaScript, Prolog, Python, Flutter).
+                Design and implement data flows (ETL, data pipeline, DWH, data
+                lake, reporting).
               </li>
+              <li>Support testing by business users.</li>
+              <li>Putting solutions into production.</li>
+              <li>Ensure that they are upgraded and maintained.</li>
+            </ul>
 
+            <h3>BI Analyst Trainee, Teamwork, Montreal (CA)</h3>
+            <p>May 2023 - August 2023</p>
+            <ul>
+              <li>Analyse customer requirements.</li>
+              <li>Prepare technical specifications.</li>
+              <li>Preparing reports and presentations.</li>
+            </ul>
+
+            <h3>
+              System Architect Apprentice, Europeen Metropolis of Lille , Lille
+              (FR)
+            </h3>
+            <p>2021 - 2023</p>
+            <ul>
+              <li>Monitoring IT projects.</li>
+              <li>Monitoring technological developments in the IT sector.</li>
+              <li>Studying how IT solutions work.</li>
+              <li>Presenting and running events.</li>
+              <li>Taking part in setting up IT environments.</li>
+              <li>Carry out technical analyses.</li>
+              <li>Develop scripts in multiple computer languages.</li>
+            </ul>
+          </section>
+        </article>
+
+        <!-- Contact -->
+        <article id="skills" class="panel">
+          <header>
+            <h2>Skills</h2>
+          </header>
+          <ul>
+            <li><b>Softwares :</b></li>
+            <ul>
+              <li><b>Office solware : </b>Word, Excel, PowerPoint, Outlook</li>
               <li>
-                Others modules: Unix Commands, Design Patterns, Analysis and
-                JAVA Object Oriented Programming, Artificial Intelligence :
-                Theory and Algorithm, Advanced Computer, Network and Systems
-                Programming, Operational Cyber-Security, User Interface
-                Designing.
+                <b>Data software : </b>Microsoft SQL Server, Oracle, MySQL,
+                MariaDB, PostgreSQL, MongoDB
               </li>
             </ul>
-          </div>
-        </div>
-
-        <div
-          class="bulle-school"
-          data-aos="zoom-in-up"
-          data-aos-delay="150"
-          data-aos-duration="800"
-        >
-          <h3>University Technological Diploma in Computer Science</h3>
-          <a style="font-style: italic; color: #757575"
-            >At IUT A Villeneuve d'Ascq</a
-          >
-          <a>2019 - 2021</a>
-          <img class="logo" src="./assets/iut.webp" alt="Logo Iut A Lille" />
-          <div class="bulle-school hidden">
-            <ul style="padding: 0">
+            <li><b>Programming Languages :</b></li>
+            <ul>
               <li>
-                Key modules: Computer programming (Java, C, SQL, HTML/CSS,
-                JavaScript), project management.
+                <b>Web development : </b>JavaScript (React, Angular), Html / Css
               </li>
-
-              <li>Carrying out software development.</li>
-              <li>Optimisingand deploying IT applications.</li>
-              <li>Administering computer systems and networks.</li>
-              <li>Managing data.</li>
-              <li>Leading a project / Working in a team.</li>
-            </ul>
-          </div>
-        </div>
-
-        <div
-          class="bulle-school"
-          data-aos="zoom-in-up"
-          data-aos-delay="150"
-          data-aos-duration="800"
-        >
-          <h3>Technological Baccalaureate</h3>
-          <a style="font-style: italic; color: #757575"
-            >At Frédéric Ozanam Lille</a
-          >
-          <a>June 2019</a>
-          <img class="logo" src="./assets/ozanam.svg" alt="Logo Ozanam" />
-          <div class="bulle-school hidden">
-            <ul style="padding: 0">
+              <li><b>Mobile developement : </b>Flutter / Dart, Swift</li>
+              <li><b>Data : </b>SQL</li>
               <li>
-                Key modules: Computer programming (Arduino/C, HTML/CSS,
-                JavaScript), database administration, project management.
+                <b>Other programming languages : </b>Java (Maven, Spring), C,
+                Python (Pandas), Bash, Scala, Spark
               </li>
-              <li>Introduction to computers and programming</li>
             </ul>
-          </div>
-        </div>
+            <li>
+              <b>Business Intelligence : </b>Qlik Sense, PowerBI, SAP Analytics
+              Cloud
+            </li>
+            <li><b>ETL : </b>Pentaho, Talend, Qlik</li>
+            <li><b>Data Architecture : </b>Star schema</li>
+            <li><b>Developement : </b>GitHub, GitLab, Docker, Kafka</li>
+            <li><b>Cloud : </b>Azure and Google Cloud Platform (Basis)</li>
+          </ul>
+
+          <header>
+            <h2>Languages</h2>
+          </header>
+          <ul>
+            <li><b>French</b></li>
+            Native speaker
+            <li><b>English</b></li>
+            Bilingual, TOEIC (860)
+            <li><b>Spanish</b></li>
+            Knowledges
+          </ul>
+        </article>
       </div>
-    </section>
+    </div>
 
-    <section
-      id="experience"
-      data-aos="fade-left"
-      data-aos-duration="1000"
-      data-aos-delay="100"
-    >
-      <div class="title-section">
-        <h2 class="title">Professional experience</h2>
-      </div>
-      <div class="school">
-        <div
-          class="bulle-school"
-          data-aos="zoom-in-up"
-          data-aos-delay="150"
-          data-aos-duration="800"
-        >
-          <h3>Data Analyst Apprentice</h3>
-          <a style="font-style: italic; color: #757575"
-            >At Toyota Motor Manufacturing France</a
-          >
-          <a>2023 - 2024</a>
-          <img class="logo" src="./assets/toyota.png" alt="Teamwork Logo" />
-          <div class="bulle-school hidden">
-            <ul style="padding: 0"></ul>
-          </div>
-        </div>
-        <div
-          class="bulle-school"
-          data-aos="zoom-in-up"
-          data-aos-delay="150"
-          data-aos-duration="800"
-        >
-          <h3>Trainee BI Analyst</h3>
-          <a style="font-style: italic; color: #757575">At Teamwork Canada</a>
-          <a>2023 (4 months)</a>
-          <img class="logo" src="./assets/teamwork.png" alt="Teamwork Logo" />
-          <div class="bulle-school hidden">
-            <ul style="padding: 0"></ul>
-          </div>
-        </div>
-
-        <div
-          class="bulle-school"
-          data-aos="zoom-in-up"
-          data-aos-delay="150"
-          data-aos-duration="800"
-        >
-          <h3>System Architect Apprentice</h3>
-          <a style="font-style: italic; color: #757575"
-            >At Europeen Metropolis of Lille</a
-          >
-          <a>2021 - 2023 (2 years)</a>
-          <img class="logo" src="./assets/mel.png" alt="Logo MEL" />
-          <div class="bulle-school hidden">
-            <ul style="padding: 0"></ul>
-          </div>
-        </div>
-
-        <div
-          class="bulle-school"
-          data-aos="zoom-in-up"
-          data-aos-delay="150"
-          data-aos-duration="800"
-        >
-          <h3>Developer on automaton</h3>
-          <a style="font-style: italic; color: #757575"
-            >At Solufiz Informatique</a
-          >
-          <a>2021 (3 months)</a>
-          <img class="logo" src="./assets/solufiz.png" alt="Logo Solufiz" />
-          <div class="bulle-school hidden">
-            <ul style="padding: 0"></ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section
-      id="skills"
-      data-aos="fade-right"
-      data-aos-duration="1000"
-      data-aos-delay="100"
-    >
-      <div class="title-section">
-        <h2 class="title">Technical Skills</h2>
-      </div>
-      <div class="skills">
-        <img class="svg-image" src="./assets/github.svg" alt="GitHub" />
-        <img class="svg-image" src="./assets/gitlab.svg" alt="GitLab" />
-        <img class="svg-image" src="./assets/flutter.svg" alt="Flutter" />
-        <img class="svg-image" src="./assets/java.svg" alt="Java" />
-        <img class="svg-image" src="./assets/python.svg" alt="Python" />
-        <img class="svg-image" src="./assets/html.svg" alt="Html" />
-        <img class="svg-image" src="./assets/javascript.svg" alt="Js" />
-        <img class="svg-image" src="./assets/angular.svg" alt="Angular" />
-        <img class="svg-image" src="./assets/react.svg" alt="React" />
-        <img class="svg-image" src="./assets/windows.svg" alt="Windows" />
-        <img class="svg-image" src="./assets/linux.svg" alt="Linux" />
-        <img class="svg-image" src="./assets/figma.svg" alt="Figma" />
-        <img class="svg-image" src="./assets/vscode.svg" alt="VsCode" />
-        <img class="svg-image" src="./assets/sql.svg" alt="SQL" />
-        <img class="svg-image" src="./assets/powerbi.svg" alt="PowerBI" />
-      </div>
-    </section>
-
-    <section
-      id="certifications"
-      data-aos="fade-right"
-      data-aos-duration="1000"
-      data-aos-delay="100"
-    >
-      <div class="title-section">
-        <h2 class="title">Certifications</h2>
-      </div>
-      <div class="certifications">
-        <a href="./assets/AZ900_Certifications.pdf" target="_blank">
-          <img
-            height="200"
-            width="200"
-            src="./assets/az900.webp"
-            alt="Certifications AZ-900"
-          />
-        </a>
-      </div>
-    </section>
-
-    <section
-      id="projects"
-      data-aos="fade-left"
-      data-aos-duration="1000"
-      data-aos-delay="100"
-    >
-      <div class="title-section">
-        <h2 class="title">Projects</h2>
-      </div>
-      <div class="flex-projets">
-        <div
-          class="bulle-project"
-          style="background-image: url('./assets/borne.webp')"
-        >
-          <div class="bulle-project hidden">
-            <div class="title-project">
-              <img src="./assets/github.svg" class="logo" alt="Card project" />
-              <h3>FIS'EAT</h3>
-            </div>
-            <a
-              >FIS'EAT is an command terminal. It's possible to order menus and
-              products without menus.</a
-            >
-            <a
-              class="button"
-              href="https://github.com/maaart1/FIS-eat.git"
-              target="_blank"
-              >Git repository</a
-            >
-          </div>
-        </div>
-
-        <div
-          class="bulle-project"
-          style="background-image: url('./assets/librairie.webp')"
-        >
-          <div class="bulle-project hidden">
-            <div class="title-project">
-              <img src="./assets/github.svg" class="logo" alt="Card project" />
-              <h3>Library Java-Spring</h3>
-            </div>
-            <a
-              >It's a website with a back-end using Sprint Boot and a front-end
-              using React JS.</a
-            >
-            <a
-              class="button"
-              href="https://github.com/maaart1/bibliotheque_java_spring.git"
-              target="_blank"
-              >Git repository</a
-            >
-          </div>
-        </div>
-
-        <div
-          class="bulle-project"
-          style="background-image: url('./assets/devweb.webp')"
-        >
-          <div class="bulle-project hidden">
-            <div class="title-project">
-              <img src="./assets/github.svg" class="logo" alt="Card project" />
-              <h3>Web development project</h3>
-            </div>
-            <a
-              >We aim to make a website with an api (API rawg) that contains
-              information about video games.</a
-            >
-            <a
-              class="button"
-              href="https://github.com/maaart1/Projet-JS-2021.git"
-              target="_blank"
-              >Git repository</a
-            >
-          </div>
-        </div>
-
-        <div
-          class="bulle-project"
-          style="background-image: url('./assets/martin.png')"
-        >
-          <div class="bulle-project hidden">
-            <div class="title-project">
-              <img src="./assets/github.svg" class="logo" alt="Card project" />
-              <h3>Portfolio</h3>
-            </div>
-            <a>This is my current portfolio.</a>
-            <a
-              class="button"
-              href="https://github.com/maaart1/martinthibaut.github.io.git"
-              target="_blank"
-              >Git repository</a
-            >
-          </div>
-        </div>
-
-        <div
-          class="bulle-project"
-          style="background-image: url('./assets/3d.webp')"
-        >
-          <div class="bulle-project hidden">
-            <div class="title-project">
-              <img src="./assets/gitlab.svg" class="logo" alt="Card project" />
-              <h3>3D modelling project</h3>
-            </div>
-            <a
-              >Our application allows you to display a ".ply" file and to
-              perform translation/rotation/zoom via buttons or the mouse.</a
-            >
-            <a
-              class="button"
-              href="https://gitlab.com/maaart1/projet-progmod-s3"
-              target="_blank"
-              >Git repository</a
-            >
-          </div>
-        </div>
-
-        <div
-          class="bulle-project"
-          style="background-image: url('./assets/mobiledev.webp')"
-        >
-          <div class="bulle-project hidden">
-            <div class="title-project">
-              <img src="./assets/gitlab.svg" class="logo" alt="Card project" />
-              <h3>Mobile application</h3>
-            </div>
-            <a
-              >It's an mobile application of tasks manager. This application is
-              develop in Flutter, Dart and we have used FireBase for the
-              database.</a
-            >
-            <a
-              class="button"
-              href="https://gitlab.com/Barbary-Theo/projet-flutter"
-              target="_blank"
-              >Git repository</a
-            >
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="footer">
-      <div class="footer">
-        <img
-          class="svg-image-footer"
-          src="./assets/github.svg"
-          alt="GitHub"
-          onclick="onClickGitHub()"
-        />
-        <img
-          class="svg-image-footer"
-          src="./assets/gitlab.svg"
-          alt="GitLab"
-          onclick="onClickGitLab()"
-        />
-        <img
-          class="svg-image-footer"
-          src="./assets/linkedin.svg"
-          alt="Linkedin"
-          onclick="onClickLinkedin()"
-        />
-        <img
-          class="svg-image-footer"
-          src="./assets/outlook.svg"
-          alt="Outlook"
-          onclick="onClickOutlook()"
-        />
-      </div>
-    </section>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
